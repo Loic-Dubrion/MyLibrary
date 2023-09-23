@@ -24,7 +24,7 @@ CREATE TABLE "book" (
     id_author INT NOT NULL,
     id_publisher INT NOT NULL,
     id_genre INT NOT NULL,
-    annee_publication INT,
+    publication_year INT,
     isbn VARCHAR(13),
     FOREIGN KEY (id_author) REFERENCES author(id),
     FOREIGN KEY (id_publisher) REFERENCES publisher(id),

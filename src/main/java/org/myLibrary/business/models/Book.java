@@ -2,10 +2,11 @@ package org.myLibrary.business.models;
 
 public class Book {
     private int id;
-    private String titre;
+    private String title;
     private Author author;
     private Publisher publisher;
     private Genre genre;
+    private int publicationYear;
 
     public int getId() {
         return id;
@@ -15,12 +16,12 @@ public class Book {
         this.id = id;
     }
 
-    public String getTitre() {
-        return titre;
+    public String getTitle() {
+        return title;
     }
 
-    public void setTitre(String titre) {
-        this.titre = titre;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public Author getAuthor() {
@@ -45,5 +46,13 @@ public class Book {
 
     public void setGenre(Genre genre) {
         this.genre = genre;
+    }
+
+    public int getPublicationYear() {
+        return publicationYear;
+    }
+
+    public void setPublicationYear(int publicationYear) {
+        this.publicationYear = publicationYear;
     }
 }

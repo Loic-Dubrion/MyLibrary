@@ -2,7 +2,7 @@
 <project version="4">
   <component name="DBNavigator.Project.DataEditorManager">
     <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="true" />
+    <value-preview-text-wrapping value="false" />
     <value-preview-pinned value="false" />
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -13,7 +13,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="50ff83f2-f13f-4894-872b-3e35a56968d0">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[SELECT * FROM information_schema.tables WHERE table_name = 'author';]]></console>
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[drop table book;]]></console>
     </connection>
     <connection id="94793c16-d88c-4a9e-9ff3-999d803f63a0">
       <console name="Connection 1" type="STANDARD" schema="" session="Main" />
@@ -35,6 +35,8 @@
     <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
+    <mapping file-url="file://$PROJECT_DIR$/src/main/java/org/myLibrary/data/sql/seeding.sql" connection-id="50ff83f2-f13f-4894-872b-3e35a56968d0" session-id="MAIN" current-schema="public" />
+    <mapping file-url="file://$PROJECT_DIR$/src/main/java/org/myLibrary/data/sql/schema.sql" connection-id="50ff83f2-f13f-4894-872b-3e35a56968d0" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/main/java/org/myLibrary/data/sql/schema.sql" connection-id="50ff83f2-f13f-4894-872b-3e35a56968d0" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/src/main/java/org/myLibrary/data/sql/seeding.sql" connection-id="50ff83f2-f13f-4894-872b-3e35a56968d0" session-id="MAIN" current-schema="public" />
   </component>
