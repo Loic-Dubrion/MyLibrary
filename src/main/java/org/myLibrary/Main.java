@@ -1,6 +1,6 @@
 package org.myLibrary;
 
-import org.myLibrary.ui.MainWindow;
+import org.myLibrary.ui.frames.MainWindow;
 
 public class Main {
 
