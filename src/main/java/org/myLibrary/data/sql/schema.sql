@@ -1,24 +1,24 @@
 -- Création de la table 'author'
-CREATE TABLE author (
+CREATE TABLE "author" (
     id SERIAL PRIMARY KEY,
     lastName TEXT NOT NULL,
     firstName TEXT
 );
 
 -- Création de la table 'publisher'
-CREATE TABLE publisher (
+CREATE TABLE "publisher" (
     id SERIAL PRIMARY KEY,
     "name" TEXT NOT NULL
 );
 
 -- Création de la table 'genre'
-CREATE TABLE genre (
+CREATE TABLE "genre" (
     id SERIAL PRIMARY KEY,
     "name" TEXT NOT NULL
 );
 
 -- Création de la table 'book'
-CREATE TABLE book (
+CREATE TABLE "book" (
     id SERIAL PRIMARY KEY,
     title TEXT NOT NULL,
     id_author INT NOT NULL,

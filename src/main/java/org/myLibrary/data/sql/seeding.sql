@@ -1,5 +1,5 @@
 -- Seed authors table
-INSERT INTO author ("lastname") VALUES
+INSERT INTO "author" ("lastname") VALUES
 ('author One'),
 ('author Two'),
 ('author Three'),
@@ -7,18 +7,18 @@ INSERT INTO author ("lastname") VALUES
 ('author Five');
 
 -- Seed publishers table
-INSERT INTO publisher ("name") VALUES
+INSERT INTO "publisher" ("name") VALUES
 ('publisher One'),
 ('publisher Two');
 
 -- Seed genre table
-INSERT INTO genre ("name") VALUES
+INSERT INTO "genre" ("name") VALUES
 ('Genre One'),
 ('Genre Two'),
 ('Genre Three');
 
 -- Seed book table
-INSERT INTO book (title, id_author, id_publisher, id_genre) VALUES
+INSERT INTO "book" ("title", "id_author", "id_publisher", "id_genre") VALUES
 ('book title 1', 1, 1, 1),
 ('book title 2', 2, 1, 2),
 ('book title 3', 3, 1, 3),
